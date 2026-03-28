@@ -1,4 +1,4 @@
-# Admission Management System (Edumerge Assignment)
+# Admission Management System
 
 ## Overview
 
