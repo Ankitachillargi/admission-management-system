@@ -50,7 +50,7 @@ app.post("/quota", (req, res) => {
   });
 });
 
-// ✅ CREATE APPLICANT
+//  CREATE APPLICANT
 app.post("/applicant", (req, res) => {
   const {
     name,
@@ -91,7 +91,7 @@ app.get("/quotas", (req, res) => {
   });
 });
 
-// ✅ SEAT ALLOCATION
+// SEAT ALLOCATION
 app.post("/allocate-seat", (req, res) => {
   const { applicant_id, program_id, quota } = req.body;
 
@@ -157,7 +157,7 @@ app.post("/allocate-seat", (req, res) => {
   });
 });
 
-// ✅ CONFIRM ADMISSION
+//  CONFIRM ADMISSION
 app.post("/confirm-admission", (req, res) => {
   const { admission_id, fee_status } = req.body;
 
@@ -227,7 +227,7 @@ app.post("/confirm-admission", (req, res) => {
   });
 });
 
-// ✅ DASHBOARD
+//  DASHBOARD
 app.get("/dashboard", (req, res) => {
   const dashboard = {};
 
